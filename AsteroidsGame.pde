@@ -1,6 +1,7 @@
 //your variable declarations here
 	Spaceship boba = new Spaceship();
 	Star [] blink = new Star [100];
+  ArrayList <Asteroids> ship = new ArrayList <Asteroids> ();
 public void setup() 
 {
   //your code here
@@ -8,6 +9,9 @@ public void setup()
   background(255, 255, 245);
   for (int i = 0; i < blink.length; i++){
   	blink[i] = new Star();
+  }
+  for (int i = 0; i < 10; i++){
+    ship.add(new Asteroids());
   }
 }
 public void draw() 
@@ -18,6 +22,10 @@ public void draw()
   boba.move();
   for (int i = 0; i < blink.length; i++){
   	blink[i].show();
+  }
+  for (int i = 0; i < ship.size(); i++){
+    ship.get(i).show();
+    ship.get(i).move();
   }
 
 }
