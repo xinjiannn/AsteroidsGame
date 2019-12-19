@@ -1,10 +1,5 @@
 class Bullet extends Floater (){
-  int myCenterX;
-  int myCenterY;
-  int myDirectionX;
-  int myDirectionY;
-  int myPointDirection;
-  Bullet(){
+  Bullet(Spaceship c){
     myCenterX = 
     myCenterY = 
     myDirectionX = 
