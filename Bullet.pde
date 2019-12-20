@@ -2,9 +2,10 @@ class Bullet extends Floater (){
   public Bullet(Spaceship c){
     myCenterX = (float)(c.getCenterX());
     myCenterY = (float)(c.getCenterY());
-    myDirectionX = (float)(c.getDirectionX());
-    myDirectionY = (float)(c.getDirectionY());
     myPointDirection =(float)(c.PointDirection());
+    double dRad = myPointDirection*(Math.PI/180);
+    myDirectionX = 5*Math.cos(dRad) + (float)(c.getDirectionX());
+    myDirectionY = 5*Math.sin(dRad) + (float)(c.getDirectionY());
   }
   
   public void show (){
