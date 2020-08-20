@@ -19,7 +19,7 @@ body {
   background-color: red;
   
   /* Create the gradient. */
-  background-image: linear-gradient(45deg, #f3ec78, #af4261);
+  background-image: linear-gradient(45deg, #1a1c91, #af4261);
   
   /* Set the background size and repeat properties. */
   background-size: 100%;
