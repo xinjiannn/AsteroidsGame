@@ -20,7 +20,7 @@ color: #463289;
 background: #d8bfd8;
 }
 
-h1 {
+.gradient-text {
   /* Fallback: Set a background color. */
   background-color: red;
   
