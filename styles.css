@@ -12,7 +12,9 @@ body {
     margin-right: auto
 }
 
-
+h1, h2, h3 {
+    margin-bottom: 20px;
+}
 
 .gradient-text {
   /* Fallback: Set a background color. */
