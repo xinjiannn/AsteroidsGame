@@ -22,7 +22,7 @@ body {
   background-image: linear-gradient(45deg, #1a1c91, #af4261);
   
   /* Set the background size and repeat properties. */
-  background-size: 100%;
+  background-size: 80%;
   background-repeat: repeat;
 
   /* Use the text as a mask for the background. */
