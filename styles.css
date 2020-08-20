@@ -12,13 +12,7 @@ body {
     margin-right: auto
 }
 
-header {
-color: #463289;
-background: #d8bfd8;
-text-shadow: 1px 0px 1px #7e68c8, 0px 1px 1px #afa2dd, 2px 1px 1px #7e68c8, 1px 2px 1px #afa2dd, 3px 2px 1px #7e68c8, 2px 3px 1px #afa2dd, 4px 3px 1px #7e68c8, 3px 4px 1px #afa2dd, 5px 4px 1px #7e68c8;
-color: #463289;
-background: #d8bfd8;
-}
+
 
 .gradient-text {
   /* Fallback: Set a background color. */
@@ -37,6 +31,14 @@ background: #d8bfd8;
   -webkit-text-fill-color: transparent; 
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
+}
+
+header {
+color: #463289;
+background: #d8bfd8;
+text-shadow: 1px 0px 1px #7e68c8, 0px 1px 1px #afa2dd, 2px 1px 1px #7e68c8, 1px 2px 1px #afa2dd, 3px 2px 1px #7e68c8, 2px 3px 1px #afa2dd, 4px 3px 1px #7e68c8, 3px 4px 1px #afa2dd, 5px 4px 1px #7e68c8;
+color: #463289;
+background: #d8bfd8;
 }
 
 footer {
